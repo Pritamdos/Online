@@ -72,6 +72,7 @@
 
                                         </span>
                                     </div>
+
                                     <div class="each-rows-inputs each-rows-inputss">
                                         <span class="deadline-text-zone">
                                             Time Zone
@@ -172,85 +173,72 @@
                 <div class="lg-sub-inners-left-sec">
                     <div class="lg-header-sec">
                         <span class="lg-hdd">
-                            Sign Up
+                            Sign In
                         </span>
+                    </div>
+                    <div class="social-icons-01">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" class="ss-ic fb">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="ss-ic google">
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="ss-ic ins">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="over-bd">
+                        <div class="border-overlay">
+                            <span>OR</span>
+                        </div>
+
                     </div>
                     <div class="form-sections-login">
                         <div class="lg-fr ">
-                            <input type="text" placeholder="Enter Name" />
+                            <input type="text" placeholder="Enter Username" />
                             <span class="users-pp">
                                 <i class="fa fa-user" aria-hidden="true"></i>
 
                             </span>
                         </div>
                         <div class="lg-fr ">
-                            <input type="email" placeholder="Enter Email" />
+                            <input type="password" placeholder="Enter Password" />
                             <span class="users-pp">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
 
                             </span>
                         </div>
-                        <div class="lg-fr ">
-                            <input type="text" placeholder="Enter Country" />
-                            <span class="users-pp">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-
+                        <div class="remember-me-and-forgets">
+                            <span class="remember-m">
+                                <p>
+                                    <input type="checkbox" id="test1" />
+                                    <label for="test1">Remember me</label>
+                                </p>
                             </span>
-                        </div>
-
-                        <div class="lg-fr ">
-                            <span class="deadline-text--educations">
-                                Higher Education
+                            <span class="forget-pass">
+                                <a href="javascript:void(0)">Forget Password ?</a>
                             </span>
-                            <div class="selected-timezone">
-
-
-                                <select class="setected-time-zone">
-                                    <option>B.Tech</option>
-                                    <option>M.Tech</option>
-                                    <option>Bsc</option>
-                                    
-                                </select>
-                                <span class="users-pp">
-                                    <i class="fa fa-university" aria-hidden="true"></i>
-
-                                </span>
-
-                            </div>
-
-
-
-
-                        </div>
-                        <div class="lg-fr ">
-                            <input type="date" placeholder="Enter DOB" />
-                            <span class="users-pp">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-
-                            </span>
-                        </div>
-                        <div class="signup-notify">
-                            <p>
-                                <input type="checkbox" id="test1" />
-                                <label for="test1">I agree to
-                                    <a class="links" href="#" target="_blank">Terms &amp; Conditions</a> and
-                                    <a class="links" href="#" target="_blank">Privacy Policy</a> set by OnlineAssigment</label>
-                            </p>
-
-
                         </div>
                         <div class="submit-buttin-sections">
                             <button type="submit" class="signin">
                                 Sign in
 
                             </button>
+
                         </div>
                         <div class="notifications-sign">
                             <span class="notify-text">
-                                Already signed up?
-
-                                <a href="login.php" class="signup">
-                                    SignIn
+                                Logging in for the first time?
+                                <a href="signup.php" class="signup">
+                                    SignUp
                                 </a>
                                 Instead
 
@@ -276,151 +264,13 @@
                             <p class="user-testimonial">“Looking for online essay, thesis or dissertation help? OnlineAssignmenthelp.com is your destination”
                             </p>
 
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="onl-fotter-sections">
-        <div class="fott-containers">
-            <div class="only-fotter-sectios-left">
-                <div class="only-footer-sub-inners-sec">
-                    <span class="ft-f1-headers">
-                        Get to know us-
-                    </span>
-                    <ul class="f1-ul">
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">About us </a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">How it works </a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">Jobs</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="only-fotter-sectios-middle">
-                <div class="only-footer-sub-inners-sec">
-                    <span class="ft-f1-headers">
-                        Let us help
-                    </span>
-                    <ul class="f1-ul">
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">My Account</a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">FAQs</a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">Resources</a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">Premium </a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">Privacy Policy </a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">Terms of use</a>
-                        </li>
-                        <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">Revision and Refund policy
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="only-fotter-sectios-right">
-                <div class="only-footer-sub-inners-sec">
-                    <span class="ft-f1-headers">
-                        Contact us
-                    </span>
-                    <div class="footer-address">
-                        <ul class="list-details">
-                            <li class="contact-details">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <span>
-                                    Suite 516 377 Kent Street Seabridge House, sydney NSW 2000, Australia
-                                </span>
-                            </li>
-                            <li class="contact-details">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span class="details-phone">
-                                    +91 8787887808
-                                </span>
-                            </li>
-                        </ul>
-
-                    </div>
-
-
-                    <ul class="f1-ul">
-                        <li class="socials-icons">
-                            <a href="javascript:void(0)" class="at-s">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="socials-icons">
-                            <a href="javascript:void(0)" class="at-s">
-                                <i class="fa fa-google" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="socials-icons">
-                            <a href="javascript:void(0)" class="at-s">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="socials-icons">
-                            <a href="javascript:void(0)" class="at-s">
-                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                            </a>
-                        </li>
-
-
-                </div>
-            </div>
-            <div class="only-fotter-sectios-corners">
-                <div class="only-footer-sub-inners-sec">
-                    <span class="ft-f1-headers">
-                        Special Offers
-                    </span>
-                    <span class="special-offers">
-                        Sign Up to access our special offers
-                    </span>
-                    <div class="each-rows-inputs">
-                        <input type="email" placeholder="Enter your email" />
-                        <span class="users-pp">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-
-                        </span>
-                    </div>
-                    <div class="each-rows-inputs">
-                        <button type="submit" class="subscribe">
-                            SUBSCRIBE
-
-                        </button>
-                    </div>
-
-
-
-                </div>
-            </div>
-
-        </div>
-        <a class="scroll_To_Top top-to-bottom-se" class="">
-            <span class="tp-p">
-                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-            </span>
-
-        </a>
-
-    </div>
     <?php include './footer.php'?>
-
 
 
 
