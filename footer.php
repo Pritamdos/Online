@@ -28,7 +28,7 @@
                             <a href="javascript:void(0)" class="at">My Account</a>
                         </li>
                         <li class="ft-list">
-                            <a href="javascript:void(0)" class="at">FAQs</a>
+                            <a href="FAQ.php" class="at">FAQs</a>
                         </li>
                         <li class="ft-list">
                             <a href="javascript:void(0)" class="at">Resources</a>
