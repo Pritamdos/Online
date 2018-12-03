@@ -1,0 +1,150 @@
+.onl-inrs-banner-sections-abouts
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/ABOUT US.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px;
+}
+
+.onl-inrs-banner-sections-faq
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/FAQS.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px;
+}
+.onl-inrs-banner-sections-abouts:before,.onl-inrs-banner-sections-faq:before,
+.onl-inrs-banner-sections-jobs:before,.onl-inrs-banner-sections-premium:before,
+.onl-inrs-banner-sections-privacy:before
+{
+  content: '';
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width:100%;
+  float: left;
+  height:100%;
+  background-color:rgba(0,0,0,0.6);
+
+}
+.onl-sub-inners-about-section 
+{
+    width:800px;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+.card-outer-about
+ {
+    width: 100%;
+    float: left;
+    padding: 0 50px;
+    margin: 0;
+}
+span.about-assigments
+ {
+
+    font-size: 15px;
+    color: #666;
+    float: left;
+    line-height: 22px;
+    margin: 0;
+    box-sizing: border-box;
+}
+span.core {
+    font-size: 18px;
+    float: left;
+    width: 100%;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.faq .onl-banner-sections .onl-inrs-banner-sections-faq 
+{   
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/FAQS.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px;
+}
+.onl-inrs-banner-sections-jobs
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/JOBS.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px;
+}
+.onl-inrs-banner-sections-premium
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/PREMIUM.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px;
+}
+.onl-inrs-banner-sections-privacy
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/ABOUT US.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px; 
+}
