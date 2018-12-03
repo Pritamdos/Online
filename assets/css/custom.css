@@ -35,7 +35,8 @@
 }
 .onl-inrs-banner-sections-abouts:before,.onl-inrs-banner-sections-faq:before,
 .onl-inrs-banner-sections-jobs:before,.onl-inrs-banner-sections-premium:before,
-.onl-inrs-banner-sections-privacy:before
+.onl-inrs-banner-sections-privacy:before,.onl-inrs-banner-sections-how-works:before,
+.onl-inrs-banner-sections-resoucres:before
 {
   content: '';
   position: absolute;
@@ -138,6 +139,40 @@ span.core {
     margin: 0;
     padding: 0;
     background-image: url('./../images/ABOUT US.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px; 
+}
+.onl-inrs-banner-sections-how-works
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/HOW IT WORKS.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-top:70px; 
+}
+.onl-inrs-banner-sections-resoucres
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/RESOURCES.jpg');
     background-attachment: fixed;
     background-size:cover;
     position: relative;
