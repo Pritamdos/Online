@@ -7,6 +7,7 @@
     <meta title="Looking for online essay, thesis or dissertation help? OnlineAssignmenthelp.com is your destination. We offer global assignment help service for all subjects at unbelievably cheap price.
     ">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/font.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/animated.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/scrollanimations.css">
@@ -55,11 +56,21 @@
                                         </span>
                                     </div>
                                     <div class="each-rows-inputs">
-                                        <input type="text" placeholder="Enter your subject" />
-                                        <span class="users-pp">
-                                            <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                          <div class="selected-timezone">
+                                                <select class="setected-time-zone">
+                                                    <option>Select Subject</option>
+                                                    <option>English</option>
+                                                    <option>Hindi</option>
+                                                    <option>Math</option>
+                                                    <option>Biology</option>
+                                                    <option>GK</option>
+                                                </select>
+                                                <span class="users-pp">
+                                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
 
-                                        </span>
+                                                </span>
+
+                                        </div>
                                     </div>
                                     <div class="each-rows-inputs">
                                         <span class="users-pp">
@@ -157,97 +168,46 @@
                                     <i class="fa fa-times  drop-arrow" aria-hidden="true"></i>
                                 </span>
                             </div>
-                            <div class="notify-form-outers">
-                                <div class="form-inner-sections">
-                                    <div class="each-rows-inputs">
-                                        <input type="text" placeholder="Enter your name" />
-                                        <span class="users-pp">
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-
-                                        </span>
-                                    </div>
-                                    <div class="each-rows-inputs">
-                                        <input type="text" placeholder="Enter your phone" />
-                                        <span class="users-pp">
-                                            <i class="fa fa-mobile" aria-hidden="true"></i>
-
-                                        </span>
-
-                                    </div>
-                                    <div class="each-rows-inputs">
-                                        <input type="email" placeholder="Enter your email" />
-                                        <span class="users-pp">
-                                            <i class="fa fa-envelope" aria-hidden="true"></i>
-
-                                        </span>
-                                    </div>
-                                    <div class="each-rows-inputs each-rows-inputss">
-                                        <span class="deadline-text-zone">
-                                            Time Zone
-                                        </span>
-                                        <div class="selected-timezone">
-
-
-                                            <select class="setected-time-zone">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                            <span class="users-pp">
-                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
-
+                            <div class="notify-parents">
+                                
+                                    <div class="notify-form-lefts">
+                                        <div class="notify-sub-inner-sections">
+                                            <span class="notify-content-sec">
+                                                Online Assignment Help
                                             </span>
-
-                                        </div>
-
-
-
-
-                                    </div>
-
-                                    <div class="each-rows-inputs each-rows-inputss">
-                                        <span class="deadline-text">
-                                            Expected Calling Date
-                                        </span>
-                                        <div class="each-rows-deadline-sec">
-                                            <div class="date-starts-left">
-                                                <input type="date" placeholder="Enter start date" />
-                                            </div>
-                                            <div class="date-starts-right">
-                                                <input type="date" placeholder="Enter last date" />
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                    <div class="each-rows-inputs">
-                                        <span class="deadline-text-zone">
-                                            Preferable time
-                                        </span>
-                                        <div class="each-rows-deadline-time-zone">
-                                            <div class="date-starts-time">
-                                                <input type="time" placeholder="Enter start date" />
-                                                <span class="users-pp">
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-
+                                            <span class="notify-sub-inner-text">
+                                                24*7 Call & Support SERVICES
+                                            </span>
+                                            <div class="notify-content-abouts">
+                                                <span class="notify-text">
+                                                Why Choose Mediocre Assignment Help When You Can Get Assistance from the Best Minds Get 24x7 Assignment Writing Assistance
+                                                from 3500+ PhD Qualified Writers Across The World
                                                 </span>
                                             </div>
 
                                         </div>
-
-
                                     </div>
-                                </div>
-                                <div class="submit-buttin-sections">
-                                    <button type="submit" class="only-submit">
-                                        Submit
+                                    <div class="notify-form-outers">
+                                        <div class="form-inner-sections">
+                                            <div class="each-rows-inputs">
+                                                <input type="text" placeholder="Enter your name" />
+                                                <span class="users-pp">
+                                                    <i class="fa fa-user" aria-hidden="true"></i>
 
-                                    </button>
+                                                </span>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="submit-buttin-sections">
+                                            <button type="submit" class="only-submit">
+                                                Submit
 
-                                </div>
+                                            </button>
+
+                                        </div>
+                                    </div>
                             </div>
+
 
 
                         </div>
@@ -492,7 +452,8 @@
 
 
 
-                    <br> ONLINE ASSIGNMENT HELP SERVICES
+                    <br>
+                       Online Assigment Help Services
                     </br>
 
                 </span>
@@ -501,7 +462,8 @@
                 <div class="card-outer-online-assigments animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            ASSIGNMENT HELP ONLINE
+                           
+                            Assigment Help Online
                         </span>
                         <div class="card-online-list">
                             <ul>
@@ -524,7 +486,8 @@
                 <div class="card-outer-online-assigments animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            DISSERTATION HELP ONLINE
+                           
+                            Dissertation Help Online
                         </span>
                         <div class="card-online-list">
                             <ul>
@@ -548,7 +511,8 @@
                 <div class="card-outer-online-assigments animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            CUSTOM ESSAY HELP ONLINE
+                           
+                            Custom Essay Help Online
                         </span>
                         <div class="card-online-list">
                             <ul>
@@ -571,7 +535,8 @@
                 <div class="card-outer-online-assigments animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            ALL HOMEWORK HELP ONLINE
+                         
+                            All Homework Help Online
                         </span>
                         <div class="card-online-list">
                             <ul>
@@ -732,7 +697,7 @@
             <div class="header-sections">
                 <span class="world-abouts-orders">
 
-                    ONLINE ASSIGNMENT HELP FEATURES
+                    Online Assignment Help Features
 
                 </span>
             </div>
@@ -740,7 +705,8 @@
                 <div class="card-outer-features animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            24*7 LIVE CHAT
+                          
+                            24*7 Live Chat
                         </span>
                         <div class="card-online-list">
                             <ul>
@@ -760,7 +726,8 @@
                 <div class="card-outer-features animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            3500+ Ph.D. ACADEMIC EXPERTS
+                            
+                            3500+ Ph.D. Academic Experts
 
                         </span>
                         <div class="card-online-list">
@@ -784,7 +751,8 @@
                 <div class="card-outer-features animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            CHEAPEST ASSIGNMENT HELP EVER
+                           
+                            Cheapest Assignment Help Ever
 
                         </span>
                         <div class="card-online-list">
@@ -806,7 +774,8 @@
                 <div class="card-outer-features animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            ASSIGNMENT HELP ON ALL SUBJECTS
+                           
+                            Assigment Help On All Subjects
 
                         </span>
                         <div class="card-online-list">
@@ -832,7 +801,8 @@
                 <div class="card-outer-features animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            ASSIGNMENT HELP ON ALL SUBJECTS
+                            
+                            Assignment Help On All Subjects
 
                         </span>
                         <div class="card-online-list">
@@ -854,7 +824,8 @@
                 <div class="card-outer-features   animatable zoomIn">
                     <div class="card-inner-section-assignment">
                         <span class="card-assignment-online">
-                            TIMELY DELIVERY OF ASSIGNMENTS
+                           
+                            Timely Delivery Of Assignments
 
 
                         </span>

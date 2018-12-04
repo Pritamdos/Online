@@ -216,12 +216,7 @@ select.setected-time-zone:focus
     float: left;
     position: relative;
 }
-.notify-form-outers {
-    width: 100%;
-    float: left;
-    padding:0px 15px 15px 15px;
-    background-color:#f7f7f7;
-}
+
 .each-rows-inputs
 {
     width:100%;
@@ -600,7 +595,7 @@ li.contact-details
     .nav ul ul{
         display:none;
         position:absolute;
-        top:97%;
+        top:100%;
         left:0;
         z-index:901;
         background:#fff;
@@ -656,22 +651,7 @@ li.contact-details
 
 
 }
-.notif-item
-{
-    position: fixed;
-    text-align: center;
-    width:280px;
-    height:auto;
-    float: left;
-    border-radius:5px 0 0 5px;
-    background: #fff;
-    right: 0;
-    bottom: 0;
-    -webkit-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
-    box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
- 
-}
+
 .hide
 {
     display:none!important;
@@ -822,10 +802,10 @@ header h1:before{
 .nav a,.nav a:active,.nav a:visited
 {
   
-    padding:25px;
+    padding:23px;
     text-decoration:none;
     color:#888;
-    font-size:16px;
+    font-size:18px;
     font-weight:500;
 }
 .nav a:hover
@@ -935,7 +915,7 @@ span.world-abouts
     font-weight:500;
     width:100%;
     float: left;
-    text-transform:uppercase; 
+    text-transform:capitalize; 
 }
 span.world-abouts-texts 
 {
@@ -948,6 +928,7 @@ span.world-abouts-texts
     font-weight:500;
     width:100%;
     float: left;
+    text-transform:capitalize; 
 
 }
 .world-abouts-orders
@@ -961,7 +942,7 @@ span.world-abouts-texts
     font-weight:500;
     width:100%;
     float: left;
-    text-transform: uppercase;
+    text-transform:capitalize;
 }
 span.orders-nows 
 {
@@ -969,8 +950,7 @@ span.orders-nows
     width: 100%;
     float: left;
     margin: 10px 0;
-    text-transform: uppercase;
-
+    text-transform:capitalize; 
 }
 .header-sections
  {
@@ -1095,7 +1075,7 @@ span.card-assignment-online
     line-height: 24px;
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
+    text-transform:capitalize;
     font-weight:600;
 }
 .work-headers 
@@ -2911,7 +2891,26 @@ span.users-pp
     align-items: center;
     color:#fff;
 }
-
+.notif-item
+{
+    position: fixed;
+    text-align: center;
+    width:600px!important;
+    height:auto;
+    float: left;
+    border-radius:5px 0 0 5px;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+ 
+}
+.nav .nav-submenu li a
+{
+    font-size:15px!important;
+}
 @media screen and (max-width:767px)
 {
     .card-outer,.card-outer-work,.card-outer-online-assigments,.card-outer-work-hire,.card-outer-features,.card-outer-work-testimonial{width:100%!important;}
@@ -2944,6 +2943,7 @@ span.users-pp
     a.at-s{height:30px!important;width:30px!important;}
     .card-outer-work-hire-onlines{padding:0!important;}
     .notify-form-outers{height:400px!important;overflow-y: scroll;}
+    .nav a{font-size:15px!important;padding:15px!important;}
     
     
 } 

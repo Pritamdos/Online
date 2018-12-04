@@ -183,3 +183,87 @@ span.core {
     background-position: center;
     margin-top:70px; 
 }
+
+
+.notif-item
+{
+    position: fixed;
+    text-align: center;
+    width:600px!important;
+    height:400px;
+    overflow-y: auto;
+    float: left;
+    border-radius:5px 0 0 5px;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+ 
+}
+
+span.online-headers-test
+{
+    text-align: center;
+    width:100%;
+}
+.notify-form-outers 
+{
+    width:50%;
+    float: left;
+    background:#fff;
+}
+.notify-form-lefts
+{
+    width:50%;
+    float: left;
+}
+.notify-content-abouts 
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+.notify-parents 
+{
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+.notify-sub-inner-sections
+{
+    width: 100%;
+    float: left;
+    padding: 15px 15px 15px 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+span.notify-content-sec 
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    line-height:28px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+span.notify-sub-inner-text {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    line-height: 24px;
+    box-sizing: border-box;
+    padding: 0;
+    color: #666;
+}
