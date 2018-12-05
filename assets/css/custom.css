@@ -187,10 +187,15 @@ span.core {
 
 .notif-item
 {
+  float: left;
+ 
+}
+.notif-item-items
+{
     position: fixed;
     text-align: center;
     width:600px!important;
-    height:400px;
+    min-height:auto;
     overflow-y: auto;
     float: left;
     border-radius:5px 0 0 5px;
@@ -200,9 +205,7 @@ span.core {
     -webkit-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
     box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
- 
 }
-
 span.online-headers-test
 {
     text-align: center;
@@ -218,6 +221,7 @@ span.online-headers-test
 {
     width:50%;
     float: left;
+    background: #3b9bb9;
 }
 .notify-content-abouts 
 {
@@ -251,7 +255,7 @@ span.notify-content-sec
     padding: 0;
     text-align: center;
     font-size: 18px;
-    color: #666;
+    color: #fff;
     margin: 0;
     padding: 0;
     line-height:28px;
@@ -265,5 +269,10 @@ span.notify-sub-inner-text {
     line-height: 24px;
     box-sizing: border-box;
     padding: 0;
-    color: #666;
+    color: #fff;
+}
+span.notify-text
+{
+    color:#Fff!important;
+    opacity:1;
 }

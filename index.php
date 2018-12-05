@@ -157,12 +157,9 @@
                     </div>
                 </div>
                 <div class="notify-outer-popos">
-                    <div class="notif-item animated slideInUp slideInDown hide">
+                    <div class="otif-item notif-item-items animated slideInUp slideInDown hide">
                         <div class="notify-inners-sec">
                             <div class="notify-haeders-sec">
-                                <span class="online-headers-test">
-                                    Welcome in Online Asssigment
-                                </span>
                                 <span class="closed-iconss" id="slide-down">
 
                                     <i class="fa fa-times  drop-arrow" aria-hidden="true"></i>
