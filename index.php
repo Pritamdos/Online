@@ -173,7 +173,7 @@
                                                 Online Assignment Help
                                               </span>
                                                 <span class="thumb-sc">
-                                                    <span class="thumb-iconss">
+                                                    <span class="thumb-iconss animated zoomIn  swing">
                                                        <i class="fa fa-phone calls" aria-hidden="true"></i>
                                                     </span>
 
@@ -259,8 +259,8 @@
                                                            REASON FOR CALLBACK
                                                          </span>
                                                          <div class="text-reason">
-                                                             <textarea class="textareas" placeholder="Describe yourself here...">
-                                                             </textarea>
+                                                             <textarea placeholder="Message" class="textareas" ></textarea>
+                                                           
                                                          </div>
                                                       </div>
                                                       <div class="get-each-sec">

@@ -138,8 +138,8 @@
                                                            REASON FOR CALLBACK
                                                          </span>
                                                          <div class="text-reason">
-                                                             <textarea class="textareas" placeholder="Describe yourself here...">
-                                                             </textarea>
+                                                             <textarea placeholder="Message" class="textareas" ></textarea>
+                                                           
                                                          </div>
                                                       </div>
                                                       <div class="get-each-sec">

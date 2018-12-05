@@ -2997,19 +2997,3 @@ span.users-pp
 {
     .only-fotter-sectios-left, .only-fotter-sectios-middle, .only-fotter-sectios-right,.only-fotter-sectios-corners{width:100%!important;}
 }
-textarea::-webkit-input-placeholder
-{
-    color: #0bf!important;
-}
-textarea:-moz-placeholder 
-{ /* Firefox 18- */
-  color: #0bf;  
-}
-textarea::-moz-placeholder 
-{  /* Firefox 19+ */
-    color: #0bf;  
-}
-textarea:-ms-input-placeholder 
-{
-    color: #0bf;  
-}
