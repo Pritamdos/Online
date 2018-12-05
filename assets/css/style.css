@@ -1706,13 +1706,14 @@ span.card-logos
     span.closed-iconss
      {
         position: absolute;
-        right:0;
+        right:10px;
         z-index: 9999;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 5px 0 0 0;
         cursor: pointer;
+        top:10px;
     }
     .i.material-icons.drop-arrow
     {
@@ -2202,7 +2203,7 @@ span.line
 }
 i.fa.fa-times.drop-arrow 
 {
-    color: #Fff;
+    color:#3b9bb9;
 }
 ul.lead-tstmnl-nm-dsg-rating
 {
@@ -2899,6 +2900,7 @@ span.users-pp
 {
     font-size:15px!important;
 }
+
 @media screen and (max-width:767px)
 {
     .card-outer,.card-outer-work,.card-outer-online-assigments,.card-outer-work-hire,.card-outer-features,.card-outer-work-testimonial{width:100%!important;}
@@ -2994,4 +2996,20 @@ span.users-pp
 @media screen and (max-width:520px)
 {
     .only-fotter-sectios-left, .only-fotter-sectios-middle, .only-fotter-sectios-right,.only-fotter-sectios-corners{width:100%!important;}
+}
+textarea::-webkit-input-placeholder
+{
+    color: #0bf!important;
+}
+textarea:-moz-placeholder 
+{ /* Firefox 18- */
+  color: #0bf;  
+}
+textarea::-moz-placeholder 
+{  /* Firefox 19+ */
+    color: #0bf;  
+}
+textarea:-ms-input-placeholder 
+{
+    color: #0bf;  
 }

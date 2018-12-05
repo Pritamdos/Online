@@ -195,7 +195,7 @@ span.core {
     position: fixed;
     text-align: center;
     width:600px!important;
-    min-height:auto;
+    height:550px;
     overflow-y: auto;
     float: left;
     border-radius:5px 0 0 5px;
@@ -271,8 +271,319 @@ span.notify-sub-inner-text {
     padding: 0;
     color: #fff;
 }
-span.notify-text
+
+.notify-inner-sectionss
 {
-    color:#Fff!important;
-    opacity:1;
+    width: 100%;
+    float: left;
 }
+.notify-inner-sectionss .lt-sec 
+{
+    width: 50%;
+    float: left;
+    min-height: 550px;
+    background: #3b9bb9;
+    position: relative;
+}
+.rt-sec 
+{
+    width: 50%;
+    float: left;
+    min-height: 550px;
+    background: #f2f2f2;
+    position: relative;
+}
+.lt-inner-secs,.rt-inner-secs
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lt-headers 
+{
+    width: 100%;
+    float: left;
+    margin: 0px;
+    margin: 0;
+}
+span.hds 
+{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #Fff;
+    margin: 0px;
+    padding: 0px;
+    line-height: 34px;
+    box-sizing: border-box;
+}
+span.sub-hds 
+{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 28px;
+    padding-top:10px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+span.thumb-iconss
+ {
+    height: 40px;
+    width: 40px;
+    float: left;
+    border: 2px solid #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin:10px 0 0 0;
+    color:#ffff;
+}
+.sub-text-notify
+ {
+    width: 100%;
+    float: left;
+    padding: 20px 0 0 0;
+}
+span.sb-text {
+    width: 100%;
+    float: left;
+    font-size:14px;
+    color: #fff;
+    word-break: break-word;
+    line-height: 22px;
+}
+.cross-ss
+{
+    width:100%;
+    float: left;
+    position: relative;
+}
+.hurry-call-back 
+{
+    width: 100%;
+    float: left;
+}
+.hurry-inner-sect
+ {
+    width: 100%;
+    float: left;
+}
+span.hurry 
+{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: uppercase;
+    color:#3b9bb9;
+}
+span.get-call 
+{
+    width: 100%;
+    float: left;
+    font-size:24px;
+    line-height:36px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color:#3b9bb9;
+}
+.hurry-inner-sc 
+{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.get-each-sec 
+{
+    width:100%;
+    float: left;
+    margin-bottom:20px;
+}
+.left-s-get {
+    width:30%;
+    float: left;
+}
+.right-s-get {
+    width:70%;
+    float: left;
+}
+select.selects-drop 
+{
+    width: 100%;
+    float: left;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #666;
+    box-sizing: border-box;
+    font-size:12px;
+    line-height:20px;
+}
+select.selects-drop:focus
+{
+    outline:none!important;
+}
+.right-s-get  input[type="number"] 
+{
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+    line-height: 20px;
+}
+.right-s-get  input[type="number"]:focus
+{
+    outline:none!important;
+}
+.get-each-sec ul
+{
+  margin:0!important;
+  padding:0!important;
+  width:100%;
+  float: left;
+}
+.get-each-sec ul li
+{
+    margin:0!important;
+    padding:0;
+    display:inline-block;
+    list-style-type:none!important;
+    float: left;
+}
+.radio
+{
+    width: 100%;
+    float: left;
+    padding: 5px 10px 10px 0;
+}
+.radio input[type="radio"]
+{
+    position: absolute;
+    opacity: 0;
+}
+.radio input[type="radio"] + .radio-label:before 
+  {
+    content: '';
+    background: #f4f4f4;
+    border-radius:50%;
+    border: 1px solid #666;
+    display: inline-block;
+    width:16px;
+    height:16px;
+    position: relative;
+    margin-right:10px;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+    font-size:15px;
+  }
+  .radio input[type="radio"]:checked + .radio-label:before 
+  {
+    background-color: #3197EE;
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+  }
+  .radio input[type="radio"]:focus + .radio-label:before 
+  {
+    outline: none;
+    border-color: #3197EE;
+  }
+  .radio input[type="radio"]:disabled + .radio-label:before 
+  {
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+    border-color: #b4b4b4;
+    background: #b4b4b4;
+  }
+  .radio input[type="radio"] + .radio-label:empty:before 
+  {
+    margin-right: 0;
+  }
+  label.radio-label {
+    font-size: 13px;
+    line-height: 18px;
+    color: #666;
+    float: left;
+    cursor: pointer;
+}
+  
+span.reason-for-callback 
+{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 13px;
+    color: #666;
+    line-height:20px;
+    text-transform: capitalize;
+}
+.text-reason {
+    width: 100%;
+    float: left;
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+textarea.textareas 
+{
+    width: 100%;
+    float: left;
+    height: 100px;
+    resize: none;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+    color: #666;
+    line-height: 20px;
+    font-size: 13px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+li.suitable-time
+{
+    width:33.33%;
+    float: left;
+    padding:5px!important;
+}
+textarea::-webkit-input-placeholder
+{
+    color: #0bf!important;
+}
+textarea:-moz-placeholder 
+{ /* Firefox 18- */
+  color: #0bf;  
+}
+textarea::-moz-placeholder 
+{  /* Firefox 19+ */
+    color: #0bf;  
+}
+textarea:-ms-input-placeholder 
+{
+    color: #0bf;  
+}
+@media screen and (max-width:767px)
+{
+
+    .notify-inner-sectionss .lt-sec,.rt-sec{width:100%!important;min-height:auto!important;}
+    .notif-item-items{width:300px!important;}
+    i.fa.fa-times.drop-arrow{color:#fff!important}
+    .notif-item-items{border-radius:5px 0 0 0px!important;}
+    span.hds{font-size:18px!important;line-height:30px!important;}
+    span.sb-text{font-size:12px!important;line-height:20px!important;}
+    
+} 
