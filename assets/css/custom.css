@@ -195,8 +195,7 @@ span.core {
     position: fixed;
     text-align: center;
     width:600px!important;
-    height:550px;
-    overflow-y: auto;
+    height:500px;
     float: left;
     border-radius:5px 0 0 5px;
     background: #fff;
@@ -281,15 +280,16 @@ span.notify-sub-inner-text {
 {
     width: 50%;
     float: left;
-    min-height: 550px;
+    min-height: 500px;
     background: #3b9bb9;
     position: relative;
+    border-radius:5px 0 0 0;
 }
 .rt-sec 
 {
     width: 50%;
     float: left;
-    min-height: 550px;
+    min-height: 500px;
     background: #f2f2f2;
     position: relative;
 }
@@ -589,7 +589,7 @@ textarea:-moz-placeholder
 {
 
     .notify-inner-sectionss .lt-sec,.rt-sec{width:100%!important;min-height:auto!important;}
-    .notif-item-items{width:300px!important;}
+    .notif-item-items{width:300px!important;overflow-y: scroll;}
     i.fa.fa-times.drop-arrow{color:#fff!important}
     .notif-item-items{border-radius:5px 0 0 0px!important;}
     span.hds{font-size:18px!important;line-height:30px!important;}
