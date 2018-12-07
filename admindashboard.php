@@ -30,11 +30,11 @@
             </span>
            
             <div class="left-nav">
-                <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Profile</a>
-                <a href="#"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Order Details</a>
-                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Mini Order Details</a>
-                <a href="#"><i class="fa fa-user"></i>Registered User</a>
-                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>Call Back Details</a>
+                <a href="#"  id="profile" ><i class="fa fa-user" aria-hidden="true"></i>Profile</a>
+                <a href="#" id="order1" ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Order Details</a>
+                <a href="#" id="mini1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i>Mini Order Details</a>
+                <a href="#" id="register-user" ><i class="fa fa-user"></i>Registered User</a>
+                <a href="#" id="call-back-deatils" ><i class="fa fa-phone" aria-hidden="true"></i>Call Back Details</a>
                 
             </div>
          
@@ -76,15 +76,673 @@
             </div>
           
         </div>
-        <div class="wrapper">
+        <div class="wrapper" id="order-details">
             <div class="wrapper_container">
                  <div class="order-details-sec">
                         <span class="order-details-headings">
                               Order Details
                         <span>
                  </div>
+                 <div class="order-details-sec-history">
+                        <span class="order-details-headings">
+                            History Of  Order Details
+                        <span>
+                 </div>
+                 <div class="common-table-details-sections">
+                    <table cellspacing="0" class="deatils-tables">
+                        <tr class="table-headings">
+                            <th>Profile</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Items</th>
+                            <th>Phone</th>
+                            <th>Address</th>
+                            
+    
+                        </tr>
+                        <tbody class="tbodys">
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>
+                                    <span class="order-images">
+                                        <img src="./assets/images/users.jpg" alt="" />
+                                    </span>
+                                </td>
+                                <td>Pritam Kumar Soni</td>
+                                <td>sonidos@gmail.com</td>
+                                <td>1</td>
+                                <td>9067651567</td>
+                                <td>N7,New Road Punjab</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                 </div>
             </div>
         </div>
+        <div class="wrapper hide" id="mini-order-details">
+            <div class="wrapper_container">
+                 <div class="order-details-sec">
+                        <span class="order-details-headings">
+                           Mini Order Details
+                        <span>
+                 </div>
+                 <div class="order-details-sec-history">
+                        <span class="order-details-headings">
+                            History Of  Mini Order Details
+                        <span>
+                 </div>
+                 <div class="common-table-details-sections">
+                    <table cellspacing="0" class="deatils-tables">
+                        <tr class="table-headings">
+                            <th>Email</th>
+                            <th>Subject</th>
+                            <th>Date</th>
+                            <th>Time Zone</th>
+                            <th>No Of Pages</th>
+                       
+                            
+    
+                        </tr>
+                        <tbody class="tbodys">
+                            <tr class="each-rows-secss">
+                                <td>sonidos@gmail.com</td>
+                                <td>Math</td>
+                                <td>20-Aug-2018</td>
+                                <td>India</td>
+                                <td>5</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>sonidos@gmail.com</td>
+                                <td>Math</td>
+                                <td>20-Aug-2018</td>
+                                <td>India</td>
+                                <td>5</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>sonidos@gmail.com</td>
+                                <td>Math</td>
+                                <td>20-Aug-2018</td>
+                                <td>India</td>
+                                <td>5</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>sonidos@gmail.com</td>
+                                <td>Math</td>
+                                <td>20-Aug-2018</td>
+                                <td>India</td>
+                                <td>5</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>sonidos@gmail.com</td>
+                                <td>Math</td>
+                                <td>20-Aug-2018</td>
+                                <td>India</td>
+                                <td>5</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>sonidos@gmail.com</td>
+                                <td>Math</td>
+                                <td>20-Aug-2018</td>
+                                <td>India</td>
+                                <td>5</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>sonidos@gmail.com</td>
+                                <td>Math</td>
+                                <td>20-Aug-2018</td>
+                                <td>India</td>
+                                <td>5</td>
+                            </tr>
+
+                         
+                            
+                        </tbody>
+                    </table>
+                 </div>
+            </div>
+        </div>
+        <div class="wrapper hide" id="call-back-details">
+            <div class="wrapper_container">
+                 <div class="order-details-sec">
+                        <span class="order-details-headings">
+                           Call Back Details
+                        <span>
+                 </div>
+                 <div class="order-details-sec-history">
+                        <span class="order-details-headings">
+                            History Of  Call Back Details
+                        <span>
+                 </div>
+                 <div class="common-table-details-sections">
+                    <table cellspacing="0" class="deatils-tables">
+                        <tr class="table-headings">
+                            <th>Country Code</th>
+                            <th>Phone Number</th>
+                            <th>Order Type</th>
+                            <th>Reason For Call Back</th>
+                            <th>Suitable Time</th>
+                       
+                            
+    
+                        </tr>
+                        <tbody class="tbodys">
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+
+                          
+                         
+                            
+                        </tbody>
+                    </table>
+                 </div>
+            </div>
+        </div>
+        <div class="wrapper hide" id="registered-user-details">
+            <div class="wrapper_container">
+                 <div class="order-details-sec">
+                        <span class="order-details-headings">
+                           Registered User Details
+                        <span>
+                 </div>
+                 <div class="order-details-sec-history">
+                        <span class="order-details-headings">
+                            History Of Registered User Details
+                        <span>
+                 </div>
+                 <div class="common-table-details-sections">
+                    <table cellspacing="0" class="deatils-tables">
+                        <tr class="table-headings">
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Country</th>
+                            <th>Education</th>
+                            <th>Date</th>
+                       
+                            
+    
+                        </tr>
+                        <tbody class="tbodys">
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+91</td>
+                                <td>9089876756</td>
+                                <td>New Order</td>
+                                <td>Learning</td>
+                                <td>5:00 pm</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>+98</td>
+                                <td>01989876756</td>
+                                <td>Existing Order</td>
+                                <td>Reading</td>
+                                <td>9:00 pm</td>
+                            </tr>
+
+                          
+                         
+                            
+                        </tbody>
+                    </table>
+                 </div>
+            </div>
+        </div>
+
 
 </div>
 
