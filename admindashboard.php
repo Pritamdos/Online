@@ -78,11 +78,83 @@
         </div>
         <div class="wrapper" id="profile-details">
             <div class="wrapper_container">
-            <div class="order-details-sec">
+                   <div class="order-details-sec">
                         <span class="order-details-headings">
-                              Profile
+                              Admin Profile Information
                         <span>
-                 </div>
+                   </div>
+                   <div class="profile-inner-sections">
+                   <div class="profile-user-details-info">
+                            <span class="usser-profiles-details-items">
+                                <span class="usr-info-icons">
+                                    <img src="./assets/images/profile-pic.jpg">
+                                    <span class="changes-profiles-sec">
+                                        <i aria-hidden="true" class="fa fa-pencil edd"></i>Change
+                                    </span>
+                                </span>
+                            </span>
+                            <div class="form-sections-profiles">
+                                <div class="form-inner-sections-profiles">
+                                    <div class="each-rows-inputs">
+                                        <input type="text" value="Pritam Kumar Soni">
+                                        <span class="users-pp">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+
+                                        </span>
+                                        <span class="edit-data">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <div class="each-rows-inputs">
+                                        <input type="email" value="pritamsoni5555@gmail.com">
+                                        <span class="users-pp">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                                        </span>
+                                        <span class="edit-data">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <div class="each-rows-inputs">
+                                        <input type="text" value="xyz">
+                                        <span class="users-pp">
+                                            <i class="fa fa-file" aria-hidden="true"></i>
+
+                                        </span>
+                                        <span class="edit-data">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <div class="each-rows-inputs">
+                                        <input type="number" value="9056186602">
+                                        <span class="users-pp">
+                                             <i class="fa fa-phone" aria-hidden="true"></i>
+
+                                        </span>
+                                        <span class="edit-data">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <div class="each-rows-inputs">
+                                        <input type="text" value="Punjab">
+                                        <span class="users-pp">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                                        </span>
+                                        <span class="edit-data">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <div class="submit-buttin-sections">
+                                        <button type="submit" class="save">
+                                            Update
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
                 
             </div>
         </div>
