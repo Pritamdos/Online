@@ -30,11 +30,11 @@
             </span>
            
             <div class="left-nav">
-                <a href="#"  id="profile" ><i class="fa fa-user" aria-hidden="true"></i>Profile</a>
-                <a href="#" id="order1" ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Order Details</a>
-                <a href="#" id="mini1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i>Mini Order Details</a>
-                <a href="#" id="register-user" ><i class="fa fa-user"></i>Registered User</a>
-                <a href="#" id="call-back-deatils" ><i class="fa fa-phone" aria-hidden="true"></i>Call Back Details</a>
+                <a href="#" class="op1"   data-modl="profile-details"  id="profile" ><i class="fa fa-user" aria-hidden="true"></i>Profile</a>
+                <a href="#" class="op1"   data-modl="order-details"  id="order1" ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Order Details</a>
+                <a href="#" class="op1"   data-modl="mini-order-details"  id="mini1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i>Mini Order Details</a>
+                <a href="#"  class="op1"  data-modl="registered-user-details"  id="register-user" ><i class="fa fa-user"></i>Registered User</a>
+                <a href="#"  class="op1"  data-modl="call-back-details" id="call-back-deatils" ><i class="fa fa-phone" aria-hidden="true"></i>Call Back Details</a>
                 
             </div>
          
@@ -594,145 +594,170 @@
                         </tr>
                         <tbody class="tbodys">
                             <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
-                            <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
-                            </tr>
-                            <tr class="each-rows-secss">
-                                <td>+91</td>
+
+                             <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
                                 <td>9089876756</td>
-                                <td>New Order</td>
-                                <td>Learning</td>
-                                <td>5:00 pm</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
                             <tr class="each-rows-secss">
-                                <td>+98</td>
-                                <td>01989876756</td>
-                                <td>Existing Order</td>
-                                <td>Reading</td>
-                                <td>9:00 pm</td>
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
                             </tr>
+                            <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+
+                             <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+
+                             <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+                            <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+
+                             <tr class="each-rows-secss">
+                                <td>Rohan</td>
+                                <td>soni@gmail.com</td>
+                                <td>9089876756</td>
+                                <td>India</td>
+                                <td>B.Tech</td>
+                                <td>20-11-2018</td>
+                            </tr>
+                          
 
                           
                          
@@ -755,10 +780,24 @@
 
 
 <script>
+    
     $(function () {
         $('#toggle').click(function () {
             $('#target').toggleClass('active');
         });
     });
+
+    $('.op1').click(function () {
+        $(".op1").each(function() {
+           let tt =  $(this).data('modl');
+
+            $('#'+tt).addClass("hide").removeClass("active-components");
+        });
+           let tt =  $(this).data('modl');
+          console.log('tt',tt);
+          if(tt){
+              $('#'+tt).addClass("active-components").removeClass("hide");
+          }
+        });
 </script>
 </html>
