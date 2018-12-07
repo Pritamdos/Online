@@ -30,7 +30,8 @@
             </span>
            
             <div class="left-nav">
-                <a href="#"  class="active"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Order Details</a>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Profile</a>
+                <a href="#"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Order Details</a>
                 <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Mini Order Details</a>
                 <a href="#"><i class="fa fa-user"></i>Registered User</a>
                 <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>Call Back Details</a>
