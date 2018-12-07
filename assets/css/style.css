@@ -2612,9 +2612,9 @@ label.hd-hide.persoanl-Informations,.history-details
     overflow-y: auto;
 }
 ::-webkit-scrollbar-track{border-radius:0;background-color:#f5f5f5}
-::-webkit-scrollbar{width:10px;background-color:rgba(0,0,0,.2)}
-::-webkit-scrollbar:horizontal{height:10px;background-color:rgba(0,0,0,.2)}
-::-webkit-scrollbar-thumb{border-radius:4px;background-color:rgba(0,0,0,.2)}
+::-webkit-scrollbar{width:6px;background-color:rgba(0,0,0,.2)}
+::-webkit-scrollbar:horizontal{height:6px;background-color:rgba(0,0,0,.2)}
+::-webkit-scrollbar-thumb{border-radius:2px;background-color:rgba(0,0,0,.2)}
 .order-images
 {
     width:40px;
@@ -2884,6 +2884,18 @@ span.users-pp
 .nav .nav-submenu li a
 {
     font-size:15px!important;
+}
+.each-rows-secss:hover
+{
+  background: #3b9bb9;
+  -webkit-box-shadow: 0px 10px 40px -17px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 40px -17px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 40px -17px rgba(0,0,0,0.75);
+  transform: scale(1);
+}
+.each-rows-secss:hover td
+{
+  color:#fff;
 }
 .card-inner-section:hover,.card-inner-section-work:hover,.card-inner-section-assignment:hover
 {

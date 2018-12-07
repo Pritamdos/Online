@@ -43,7 +43,7 @@
            <div class="popover__wrapper">
                     <a href="#" class="user-images">
                         <span class="popover__title">
-                               <img src="./assets/images/users.jpg"/>
+                               <img src="./assets/images/profile-pic.jpg"/>
                         </span>
                     </a>
                     <div class="push popover__content">
@@ -76,7 +76,17 @@
             </div>
           
         </div>
-        <div class="wrapper" id="order-details">
+        <div class="wrapper" id="profile-details">
+            <div class="wrapper_container">
+            <div class="order-details-sec">
+                        <span class="order-details-headings">
+                              Profile
+                        <span>
+                 </div>
+                
+            </div>
+        </div>
+        <div class="wrapper hide" id="order-details">
             <div class="wrapper_container">
                  <div class="order-details-sec">
                         <span class="order-details-headings">
