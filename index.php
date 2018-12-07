@@ -236,20 +236,6 @@
                                                                     </div>
   
                                                                 </li>
-                                                                <li> 
-                                                                   <div class="radio">
-                                                                        <input id="radio-3" name="radio" type="radio">
-                                                                        <label for="radio-3" class="radio-label">SELLS</label>
-                                                                    </div>
-  
-                                                                </li>
-                                                                <li> 
-                                                                   <div class="radio">
-                                                                        <input id="radio-4" name="radio" type="radio">
-                                                                        <label for="radio-4" class="radio-label">SERVICES</label>
-                                                                    </div>
-  
-                                                                </li>
                                                            
                                                           <ul>
                                                       </div>
@@ -807,11 +793,11 @@
                         </span>
                         <div class="card-online-list">
                             <ul>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     At OnlineAssignmenthelp.com, you will be able to enjoy the 24*7 live chat feature. We have online customer relationship managers
                                     available to assist you with instant solutions, whenever asked.
                                 </li>
-                                <li class="animatable fadeInDown">
+                                <li >
                                     Thus, if you have a query, ping us any time. We are online, and ready to help you.
 
                                 </li>
@@ -829,14 +815,14 @@
                         </span>
                         <div class="card-online-list">
                             <ul>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     We have more than 3500 Ph.D. academic experts available to write your projects. So, you can relax about receiving brilliant
                                     writing solutions and services.
                                 </li>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     They are the most educated and experienced people to hire, if receiving best assignment solution is your priority.
                                 </li>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     Our global assignment helpers are here to compose papers, revise them and add unique information to the assignments.
 
 
@@ -854,10 +840,10 @@
                         </span>
                         <div class="card-online-list">
                             <ul>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     If you hire our online assignment writers, then you will receive the cheapest assignment assistance ever
                                 </li>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     We offer the best price for assignments, and never ask for anything extra. Hiring our service will also help you to avail
                                     some amazing discounts, varying within the range of 20% to 30% price slash on orders.
 
@@ -877,14 +863,14 @@
                         </span>
                         <div class="card-online-list">
                             <ul>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     If you place order with OnlineAssignmenthelp.com, then you will receive assignment help online for all subjects.
                                 </li>
                                 <li>
                                     The subjects that we cover include Geography, Math, History, Science, Computer/IT, Nursing, Biotechnology, Economics, Law,
                                     Management and more.
                                 </li>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     So, give us a call, avail the live chat facility, clear all queries, and place your order. We are here to solve your queries
                                     and help you with the solution you need.
 
@@ -904,11 +890,11 @@
                         </span>
                         <div class="card-online-list">
                             <ul>
-                                <li class="animatable fadeInDown">
+                                <li>
 
                                     With OnlineAssignmenthelp.com, you can receive 100% plagiarism-free assignment help. We do not copy from others.
                                 </li>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     It is our aim to eliminate plagiarism from the industry. Hence, we follow strict rules and use updated software to check
                                     plagiarism and eliminate all unoriginal content immediately.
 
@@ -928,12 +914,12 @@
                         </span>
                         <div class="card-online-list">
                             <ul>
-                                <li class="animatable fadeInDown">
+                                <li>
 
                                     Our online academic assignment writers are punctual. They shall send you assignment solutions on time, so that you don’t
                                     appear late in your class with the paper. Your success is important to us
                                 </li>
-                                <li class="animatable fadeInDown">
+                                <li>
                                     So, we will do anything and everything to ensure 100% assignment success during semesters and other exams.
 
                                 </li>

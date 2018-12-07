@@ -117,20 +117,6 @@
                                                                     </div>
   
                                                                 </li>
-                                                                <li> 
-                                                                   <div class="radio">
-                                                                        <input id="radio-3" name="radio" type="radio">
-                                                                        <label for="radio-3" class="radio-label">SELLS</label>
-                                                                    </div>
-  
-                                                                </li>
-                                                                <li> 
-                                                                   <div class="radio">
-                                                                        <input id="radio-4" name="radio" type="radio">
-                                                                        <label for="radio-4" class="radio-label">SERVICES</label>
-                                                                    </div>
-  
-                                                                </li>
                                                            
                                                           <ul>
                                                       </div>
