@@ -37,8 +37,43 @@
                 <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>Call Back Details</a>
                 
             </div>
+         
         </div>
         <div class="site-wrapper_top-bar">
+           <div class="popover__wrapper">
+                    <a href="#" class="user-images">
+                        <span class="popover__title">
+                               <img src="./assets/images/users.jpg"/>
+                        </span>
+                    </a>
+                    <div class="push popover__content">
+                  
+                             <ul>
+                                  <li>
+                                      <a href="javascript:void(0)" class="user-details-view">
+                                        <i class="fa fa-user user-icns" aria-hidden="true"></i>
+                                          <span class="profiles">
+                                            Profile 
+                                          </span>
+                                         
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:void(0)" class="user-details-view">
+                                       <i class="fa fa-sign-out user-icns" aria-hidden="true"></i>
+                                        <span class="profiles">
+                                            Logout 
+                                        </span>
+                                        
+                                          
+                                      </a>
+                                  </li>
+
+                             </ul>
+
+                       
+                    </div>
+            </div>
           
         </div>
         <div class="wrapper">
