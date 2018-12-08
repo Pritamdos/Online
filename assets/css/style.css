@@ -3358,6 +3358,14 @@ button.experts-submit
 {
     background-color:#dd574c!important; 
 }  
+.call-back-submit
+{
+    width:100%;
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 @media screen and (max-width:767px)
 {
     .card-outer,.card-outer-work,.card-outer-online-assigments,.card-outer-work-hire,.card-outer-features,.card-outer-work-testimonial{width:100%!important;}

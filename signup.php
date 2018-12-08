@@ -22,7 +22,7 @@
     <div class="onl-banner-sections">
         <div class="onl-inrs-banner-sections-login-signups">
 
-           <div class="notifiicons">
+       <div class="notifiicons">
                 <div class="notif-flex">
                     <div class="notif-btn">
                         <span class="call-iconss swing">
@@ -53,7 +53,7 @@
                                                 Online Assignment Help
                                               </span>
                                                 <span class="thumb-sc">
-                                                    <span class="thumb-iconss">
+                                                    <span class="thumb-iconss animated zoomIn  swing">
                                                        <i class="fa fa-phone calls" aria-hidden="true"></i>
                                                     </span>
 
@@ -116,7 +116,6 @@
                                                                     </div>
   
                                                                 </li>
-                                                        
                                                            
                                                           <ul>
                                                       </div>
@@ -167,6 +166,12 @@
                                                       </div>
                                                   
                                                   </div>
+                                                   <div class="call-back-submit">
+                                                        <button type="submit" class="only-submit">
+                                                            Submit
+                                                        </button>
+
+                                                    </div>
                                             </div>
                                         </div>
                                    </div>

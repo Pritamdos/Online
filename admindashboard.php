@@ -182,6 +182,13 @@
                         <span class="order-details-headings">
                             History Of  Order Details
                         <span>
+                        <span class="exports-files">
+                           <button type="submit" class="exports">
+                             <span class="exp">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                             </span>
+                             Export</button>
+                        <span>
                  </div>
                  <div class="common-table-details-sections">
                     <table cellspacing="0" class="deatils-tables">
@@ -417,6 +424,13 @@
                         <span class="order-details-headings">
                             History Of  Mini Order Details
                         <span>
+                        <span class="exports-files">
+                           <button type="submit" class="exports">
+                             <span class="exp">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                             </span>
+                             Export</button>
+                        <span>
                  </div>
                  <div class="common-table-details-sections">
                     <table cellspacing="0" class="deatils-tables">
@@ -498,6 +512,13 @@
                  <div class="order-details-sec-history">
                         <span class="order-details-headings">
                             History Of  Call Back Details
+                        <span>
+                        <span class="exports-files">
+                           <button type="submit" class="exports">
+                             <span class="exp">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                             </span>
+                             Export</button>
                         <span>
                  </div>
                  <div class="common-table-details-sections">
@@ -672,6 +693,13 @@
                  <div class="order-details-sec-history">
                         <span class="order-details-headings">
                             History Of Registered User Details
+                        <span>
+                        <span class="exports-files">
+                           <button type="submit" class="exports">
+                             <span class="exp">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                             </span>
+                             Export</button>
                         <span>
                  </div>
                  <div class="common-table-details-sections">
