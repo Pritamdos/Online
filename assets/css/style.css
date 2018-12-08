@@ -36,7 +36,25 @@ body
     background-position: center;
     margin-top:70px;
 }
-
+.experts-online-centers
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url('./../images/EXPERTS.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
 .onl-inrs-banner-sections-login-signups
 {
     width: 100%;
@@ -60,7 +78,8 @@ body
     align-items: center;
     margin-top: 65px;
 }
-.onl-inrs-banner-sections-login-signup:after,.about-us-backgrounds:after
+.onl-inrs-banner-sections-login-signup:after,.about-us-backgrounds:after,
+.experts-online-centers:after
 {
    position: absolute;
    content: '';
@@ -671,6 +690,7 @@ li.contact-details
 .notifiicons 
 {
     position: relative;
+    z-index:99999;
 }
 .notif-btn
 {
@@ -2907,7 +2927,437 @@ span.users-pp
 .card-inner-section-assignment:hover .card-online-list ul li:before,.card-inner-section-work:hover .card-online-list ul li:before
 {
     background:#fff!important;
+
 }
+.experts-online-inner-sections 
+{
+    width: 800px;
+    margin: 0 auto;
+    background:#fff;
+    min-height: 150px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 99;
+    -webkit-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+}
+.connect-width-experts 
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.select-experts-outers
+{
+    width: 100%;
+    margin: 20px 0 0 0;
+    float: left;
+    padding: 0 50px;
+}
+select.select-experts 
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 10px;
+    height: 42px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-size: 16px;
+    color: #666;
+}
+span.find-experts 
+{
+    float: left;
+    margin: 0px 0 0 10px;
+    width: 28%;
+}
+a.expertss
+ {
+    float: left;
+    padding: 10px 20px;
+    margin: 0;
+    background: #3b9bb9;
+    border-radius:2px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+select.select-experts:focus
+{
+    outline:none!important;
+}
+span.connect-head 
+{
+    font-size:26px;
+    color:#3b9bb9;
+    line-height:42px;
+    font-family: 'opensans-light';
+    font-weight:600;
+}
+.selec-inner-sec
+{
+    width:70%;
+    float: left;
+}
+.experts-details-overview-mobile-view
+ {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding:20px;
+    display:none!important;
+    background-color:#f7f7f7;
+}
+.experts-heading-sections-mobile-view 
+{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    margin:20px 0;
+}
+.experts-details-overview 
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 20px;
+    background-color:#f7f7f7;
+}
+.experts-details-lists
+ {
+    width: 100%;
+    float: left;
+    padding:60px 0;
+    background: #f2f2f2;
+}
+
+span.experts-details-heads 
+{
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #888;
+    font-weight: 100;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+.experts-heading-sections 
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+span.experts-abouts
+{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #888;
+    font-weight: 100;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+.experts-inner-views
+{
+    width:800px;
+    margin:70px auto;
+    height:300px;
+    background-image: url('./../images/why-expertloo.png');
+    background-size:cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+    
+}
+.left-top-sections
+ {
+    position: absolute;
+    top: 30px;
+}
+span.left-top-section-contains 
+{
+    position: absolute;
+    left: 15px;
+}
+span.lef-ft-tp,span.rig-ft-tp,span.lt-btm-ft-tp,span.rt-bttmm-ft-tp
+{
+    width: 100%;
+    float: left;
+    color: #Fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing:1.2px;
+}
+span.left-bottm-section-contains
+ {
+    position: absolute;
+    top: 24px;
+    padding: 0 10px 0 12px;
+    width: 230px;
+}
+.right-top-sections 
+{
+    position: absolute;
+    right: 0;
+}
+.left-bottoms-sections
+ {
+    position: absolute;
+    bottom: 86px;
+}
+span.lefts-bottms-section-contains 
+{
+    position: absolute;
+    top: -27px;
+    left: 13px;
+}
+span.right-top-section-contains 
+{
+    position: absolute;
+    right: 17px;
+    top: 28px;
+}
+span.lt-ft-bt,span.lt-bt-ft-bt,span.rts-rt-ft-bt
+{
+    float: left;
+    font-size: 12px;
+    color: #888;
+    line-height: 14px;
+    width:100%;
+}
+span.right-tp-section-contains 
+{
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    top: 52px;
+}
+span.left-botts-section-contains 
+{
+    position: absolute;
+    width: 228px;
+    float: left;
+    left: 13px;
+}
+span.rights-botttms-section-contains
+ {
+    position: absolute;
+    right: 10px;
+    bottom: 91px;
+}
+
+span.rt-bottss-section-contains
+ {
+    position: absolute;
+    width: 210px;
+    right: 2px;
+    bottom: 36px;
+}
+.right-bottoms-sections 
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+span.rt-ft-bt {
+    float: left;
+    font-size: 12px;
+    color: #888;
+    line-height: 14px;
+    width: 100%;
+}
+.card-outer-experts
+{
+    float: left;
+    width:50%;
+    margin-right: 0;
+    margin-left: 0;
+    padding:10px 30px 30px;
+    position: relative;
+}
+.card-logo-outers-experts 
+{
+    float: left;
+}
+.card-inner-section-experts 
+{
+    float: left;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 60px 1px rgba(0,0,0,.1);
+    box-shadow: -1px 2px 60px 1px rgba(0,0,0,.1);
+    border-radius: 10px;
+    position: relative;
+    height: 100%;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+}
+span.commit
+{
+    background-color:#7a759d!important;
+}
+span.quality
+{
+    background-color:#dd574c!important;
+}
+span.qualifications
+{
+    background-color:#cc5a7c!important;
+}
+span.orignt
+{
+    background-color:#8da452!important;
+}
+.experts-detsl 
+{
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+span.experts-details-hed 
+{
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+span.experts-details-subhed 
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px 0;
+    color: #888;
+}
+.common-table-details-sections
+{
+  width: 100%;
+  float: left;
+  padding:0px 0 0 0;
+  height:400px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+.experts-details-items 
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+table.deatils-tables-experts 
+{
+    width: 100%;
+    float: left;
+}
+.table-headings-experts th
+{
+    text-align:left;
+    color:#fff;
+    font-size:14px;
+    font-weight:500;
+    padding: 10px 0 10px 10px;
+    background: rgba(59, 155, 185,0.7);
+}
+.table-headings-experts th:first-child
+{
+  border-radius:4px 0 0 0;
+}
+span.experts-dd 
+{
+    width:250px;
+    float: left;
+}
+.table-headings-experts th:last-child
+{
+    border-radius:0px 4px 0 0;
+  }
+@media screen and (max-width:1200px)
+{ 
+    .experts-details-items{width:100%;margin:0!important; padding:0 30px;}
+
+}
+.experts-rows-secss td 
+{
+    font-size: 14px;
+    color: #666;
+    padding:0px 0 0px 10px;
+}
+.experts-images
+{
+    width:60px;
+    height:60px;
+    float: left;
+    border-radius:50%;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    margin:5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+span.rat {
+    float: left;
+    width: 100%;
+    padding:0 20px;
+}
+.experts-images img
+{
+    width:100%;
+    height:100%;
+}
+tbody.experts tr:nth-child(odd)
+{
+    background-color:#fff;
+}
+tbody.experts tr:nth-child(even)
+{
+    background-color:#f7f7f7;
+}
+button.experts-submit 
+{
+    height: initial;
+    padding: 5px 15px;
+    background:#3b9bb9;
+    outline: none;
+    box-shadow: none;
+    border: none!important;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.closed
+{
+    background-color:#dd574c!important; 
+}  
 @media screen and (max-width:767px)
 {
     .card-outer,.card-outer-work,.card-outer-online-assigments,.card-outer-work-hire,.card-outer-features,.card-outer-work-testimonial{width:100%!important;}
@@ -2941,6 +3391,8 @@ span.users-pp
     .card-outer-work-hire-onlines{padding:0!important;}
     .notify-form-outers{height:400px!important;overflow-y: scroll;}
     .nav a{font-size:15px!important;padding:15px!important;}
+    .experts-rows-secss td{font-size:13px!important;}
+    .experts-details-lists{padding:40px 0!important;}
     
     
 } 
@@ -3003,4 +3455,22 @@ span.users-pp
 @media screen and (max-width:520px)
 {
     .only-fotter-sectios-left, .only-fotter-sectios-middle, .only-fotter-sectios-right,.only-fotter-sectios-corners{width:100%!important;}
+}
+@media screen and (max-width:800px)
+{
+    .experts-details-overview-mobile-view{display: block!important;}
+    .experts-details-overview{display:none!important;}
+    .experts-online-inner-sections{width:500px!important;margin:0!important;}
+    .selec-inner-sec{width:100%!important;}
+    span.find-experts{width:100%!important; margin:20px 0!important;}
+    span.connect-head{font-size:22px!important;line-height:32px!important;}
+}
+@media screen and (max-width:540px)
+{
+    .card-outer-experts{width:100%!important;}
+    .experts-online-inner-sections{width:300px!important;margin:0!important;}
+    .selec-inner-sec{width:100%!important;}
+    span.find-experts{width:100%!important; margin:20px 0!important;}
+    span.connect-head{font-size:18px!important;line-height:28px!important;}
+    .select-experts-outers{padding:0 20px!important;}
 }
