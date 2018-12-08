@@ -530,17 +530,16 @@ span.usr-info-icons img
     float: left;
     text-decoration: none;
     background: rgba(59, 155, 185,0.7);
-    padding: 10px 35px;
+    padding: 8px 25px;
     border-radius: 5px;
     color: #fff;
     font-size: 13px;
-    font-weight:600;
+    font-weight: 600;
     line-height: 22px;
     margin: 0;
     box-sizing: border-box;
     cursor: pointer;
-    text-transform: uppercase;
-    border:none!important;
+    border: none!important;
 
 }
 .save:focus,.chageg:focus
@@ -706,12 +705,22 @@ span.admin-name
   }
   .table-headings th
   {
-      font-size:14px!important;
+      font-size:13px!important;
   }
   span.order-details-headings
   {
       font-size:16px!important;
       line-height: 24px!important;
+  }
+  .each-rows-secss td
+  {
+      font-size:12px!important;
+      padding:10px!important;
+  }
+  .order-images
+  {
+      height:32px!important;
+      width:32px!important;
   }
     
 } 

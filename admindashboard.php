@@ -160,7 +160,7 @@
                                     </div>
                                     <div class="submit-buttin-sections">
                                         <button type="submit" class="save">
-                                            Update
+                                            Save
                                         </button>
 
                                     </div>
