@@ -24,6 +24,8 @@
             <a href="#" class="logo dashboard-design">
                 <img src="./assets/images/OAH Logo.png"/>
                 
+                
+                
             </a>
             <span class="toggles">
                 <a href="#" id="toggle"><i class="fa fa-bars"></i></a>
@@ -41,11 +43,20 @@
         </div>
         <div class="site-wrapper_top-bar">
            <div class="popover__wrapper">
-                    <a href="#" class="user-images">
+                     <a href="#" class="user-images">
                         <span class="popover__title">
                                <img src="./assets/images/profile-pic.jpg"/>
+                              
                         </span>
-                    </a>
+                        <span class="admin-name">
+                               <span class="online">
+                               </span>
+                                <span>
+                                    Pritam kumar Soni
+                                </span>
+                        </span>
+                        
+                     </a>
                     <div class="push popover__content">
                   
                              <ul>
@@ -73,10 +84,12 @@
 
                        
                     </div>
+                   
             </div>
+           
           
         </div>
-        <div class="wrapper" id="profile-details">
+        <div class="wrapper hide" id="profile-details">
             <div class="wrapper_container">
                    <div class="order-details-sec">
                         <span class="order-details-headings">
@@ -158,7 +171,7 @@
                 
             </div>
         </div>
-        <div class="wrapper hide" id="order-details">
+        <div class="wrapper" id="order-details">
             <div class="wrapper_container">
                  <div class="order-details-sec">
                         <span class="order-details-headings">
@@ -849,9 +862,12 @@
                  </div>
             </div>
         </div>
-
-
+        
 </div>
+<div class="footer-sec">
+        Online Assignment Help
+</div>
+
 
 
 </body>
