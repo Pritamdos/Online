@@ -205,7 +205,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Reviews</a>
+                            <a href="reviews.php">Reviews</a>
                         </li>
                         <li>
                             <a href="experts.php">Experts </a>
