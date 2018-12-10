@@ -117,12 +117,53 @@
                                                     </div>
                                                 </div>
                                                 <div class="submit-button-sections-stepper">
-                                                    <button onclick="hideStage(1);showStage(2)"  class="done-btn-sections">CONTINUE<i class="fa fa-right"></i></button>
+                                                    <button onclick="hideStage(1);showStage(2)"  class="done-btn-sections">CONTINUE<i class="fa fa-arrow-circle-right rg" aria-hidden="true"></i></button>
                                                 </div>
                                             </div>
                                             <div id="stage2" class="s-stepper-stage">
                                                 <div class="stepper-form-inner-sec">
-                                                    mfngnm
+                                                        <div class="stp-otr">
+                                                            <div class="stp-left">
+                                                                    <div class="each-rows-inputs">
+                                                                        <input type="email" placeholder="Enter your name" />
+                                                                        <span class="users-pp">
+                                                                            <i class="fa fa-user" aria-hidden="true"></i>
+
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="each-rows-inputs">
+                                                                        <input type="email" placeholder="Enter your email id" />
+                                                                        <span class="users-pp">
+                                                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="each-rows-inputs">
+                                                                        <input type="number" placeholder="Enter your contact" />
+                                                                        <span class="users-pp">
+                                                                            <i class="fa fa-phone" aria-hidden="true"></i>
+
+                                                                        </span>
+                                                                    </div>
+                                                            </div>
+                                                            <div class="stp-right">
+                                                                    <div class="each-rows-inputs">
+                                                                            <input type="email" placeholder="Enter Title" />
+                                                                            <span class="users-pp">
+                                                                               <i class="fa fa-sticky-note-o" aria-hidden="true"></i>
+
+                                                                            </span>
+                                                                    </div>
+                                                                    <div class="each-rows-inputs">
+                                                                        <input type="number" placeholder="Enter your subject" />
+                                                                        <span class="users-pp">
+                                                                             <i class="fa fa-file" aria-hidden="true"></i>
+
+                                                                        </span>
+                                                                    </div>
+                                                                  
+                                                            </div>
+                                                    </div>
                                                 </div>
                                                 
                                                 <div class="submit-button-sections-stepper">

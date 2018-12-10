@@ -4094,6 +4094,12 @@ span.wd
     font-size: 14px;
     line-height:20px;
 }
+.rg
+{
+    float: right;
+    margin-left:10px;
+    margin-top:4px;
+}
 /* End */
 @media screen and (max-width:1200px)
 
