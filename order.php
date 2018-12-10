@@ -27,11 +27,11 @@
                                     <div class="s-stepper">
                                         <div data-target="#stage1" id="stage-1-step" class="s-step active">
                                             <span class="s-step-counter"></span>
-                                            <small>Basic information about job. Like Job Title</small>
+                                            <small>Fill basic details of your assignment</small>
                                         </div>
                                         <div data-target="#stage2" id="stage-2-step" class="s-step">
                                             <span class="s-step-counter"></span>
-                                            <small>Information about required experience</small>
+                                            <small>Fill the requirement & place your order</small>
                                         </div>
                                     
                                     </div>

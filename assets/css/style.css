@@ -3873,6 +3873,7 @@ span.closed-modals
   cursor: pointer;
   color: rgba(0, 0, 0, 0.6);
   position: relative;
+  background-color:#f7f7f7;
 }
 .s-stepper .s-step:first-child:before 
 {
@@ -3908,6 +3909,7 @@ span.closed-modals
   border-bottom: 50px solid transparent;
   border-left: 50px solid #3b9bb9;
   transition: all 900ms ease-in-out;
+  z-index:999;
 }
 .s-stepper .s-step.active .s-step-counter:after 
 {
@@ -3960,8 +3962,10 @@ span.closed-modals
     border: none !important;
   }
 }
-@media screen and (max-width: 550px) {
-  .s-stepper {
+@media screen and (max-width: 550px) 
+{
+  .s-stepper 
+  {
     display: none;
   }
 }
@@ -3971,12 +3975,15 @@ span.closed-modals
     float: left;
     padding: 50px 50px 50px 50px;
     margin-top: 80px;
-    height: calc(100vh - 350px);
 }
 .order-stepper-ir-sec
 {
     width:800px;
     margin:0 auto;
+}
+@media screen and (max-width:800px) 
+{
+    .order-stepper-ir-sec{width:100%;margin:0!important;}
 }
 .stepper-form-inner-sec 
 {
@@ -4147,6 +4154,9 @@ span.wd
     .nav a{font-size:15px!important;padding:15px!important;}
     .experts-rows-secss td{font-size:13px!important;}
     .experts-details-lists{padding:40px 0!important;}
+    span.st-headers{font-size:16px!important;line-height:28px!important;}
+    span.st-helps{font-size:14px!important;line-height:22px!important;}
+
     
     
 } 
@@ -4206,6 +4216,7 @@ span.wd
     span.on-sub-headers{margin:0!important;}
     span.thumb-sc{display:none!important;}
     .card-outer,.card-outer-work,.card-outer-work-hire{padding: 0 0px 30px!important;}
+    .stp-left,.stp-right{width:100%!important;}
   
 }
 @media screen and (max-width:520px)
