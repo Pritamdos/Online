@@ -4217,6 +4217,7 @@ span.wd
     span.thumb-sc{display:none!important;}
     .card-outer,.card-outer-work,.card-outer-work-hire{padding: 0 0px 30px!important;}
     .stp-left,.stp-right{width:100%!important;}
+    .order-details-sc{padding:25px!important;}
   
 }
 @media screen and (max-width:520px)
