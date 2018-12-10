@@ -56,6 +56,7 @@
                                         </span>
                                     </div>
                                     <div class="each-rows-inputs">
+                                          <span class="choose-assignments">Choose your assignment deadline</span>
                                           <div class="selected-timezone">
                                                 <select class="setected-time-zone">
                                                     <option>Select Subject</option>

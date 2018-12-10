@@ -3842,9 +3842,8 @@ span.closed-modals
 .s-stepper-content .s-stepper-stage 
 {
   display: none;
-  padding: 15px 22px;
   box-shadow: 0 2px 4px 0px #aaa;
-  background-color: #fff;
+  background-color: #f7f7f7;
   width:100%;
   float: left;
 }
@@ -3853,6 +3852,7 @@ span.closed-modals
   display: flex;
   width:100%;
   float: left;
+  flex-direction: column;
 }
 
 .s-stepper 
@@ -3920,8 +3920,8 @@ span.closed-modals
   width: 45px;
   height: 45px;
   border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 .s-stepper .s-step.done .s-step-counter:after 
 {
@@ -3984,7 +3984,116 @@ span.closed-modals
     float: left;
     padding: 20px 15px;
 }
+.submit-button-sections-stepper {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
 
+button.done-btn-sections 
+{
+    float: left;
+    padding:7px 30px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    line-height: 22px;
+    border-radius: 2px;
+    margin: 0;
+    box-sizing: border-box;
+    background:#3b9bb9;
+    cursor: pointer;
+}
+.header-sectins 
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+span.st-headers 
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    color: #666;
+    box-sizing: border-box;
+    line-height: 30px;
+    margin: 0;
+}
+span.st-helps
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    font-size:16px;
+    color: #666;
+    box-sizing: border-box;
+    line-height:26px;
+    margin: 0;  
+}
+button.done-btn-sections:focus
+{
+    outline:none!important;
+}
+.stp-otr 
+{
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.stp-left 
+{
+    width: 50%;
+    float: left;
+    padding:0 10px 0 0;
+}
+.stp-right 
+{
+    width: 50%;
+    float: left;
+    padding:0 10px 0 0;
+}
+span.choose-assignments 
+{
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    color: #666;
+    line-height: 20px;
+}
+.od-iner
+{
+    width:100%;
+    float: left;
+    background:#f7f7f7;
+}
+span.sb-tt 
+{
+    font-size: 13px;
+    color: #666;
+    opacity:0.7;
+    line-height: 18px;
+    float: left;
+}
+.et-s 
+{
+    width: 100%;
+    float: left;
+}
+span.wd 
+{
+    position: absolute;
+    bottom: -22px;
+    right: 0;
+    z-index: 9999;
+    color: #666;
+    font-size: 14px;
+    line-height:20px;
+}
 /* End */
 @media screen and (max-width:1200px)
 
